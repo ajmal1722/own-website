@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr;
+    background: linear-gradient(rgba(10,10,10,0.8),rgb(51, 52, 110));
+}
+header div{
+    font-size: 40px;
+    margin-top: 18px;
+    font-weight: bolder;
+}
+header nav{
+    margin-top: 35px;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    background: linear-gradient(rgba(10,10,10,0.69),rgb(51, 52, 110)),url(background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.animated {
+    font-size: 25px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translatex(0);
+    }
+    40% {
+        transform: translatex(-30px);
+    }
+    60% {
+        transform: translatex(-15px);
+    }
+}
+.left-section{
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    
+}
+.right-section{
+    width: 300px;
+    height: 375px;
+    margin: auto;
+    border-radius: 30px;
+    background: white;
+}
+h4{
+    font-size: 30px;
+}
+.input-group{
+    margin: 15px ;
+    font-size: 16px;
+    color: black; 
+}
+.input-group button{
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    color: white;
+    background: red;
+    border-style: none;
+}
+.a{
+   display: flex;
+   background: #f6f6f6;
+}
+.a video{
+    margin: 50px 100px;
+}
+.a img{
+    width: 50px;
+    height: 50px;
+}
+table{
+    margin: 50px 100px;
+}
+.a1{
+    width: 450px;
+    height: 300px;
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-left: -80pxpx;
+}
+.sec {
+    margin: 100px 150px;
+    
+}
+.sec img{
+    margin-top: 150px;
+    width: 600px;
+    height: 400px;
+}
+.spotify{
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    color: #f6f6f6;
+    margin: auto;
+    background: rgba(31, 31, 91,0.79);
+}
+.f1{
+    display: flex;
+    
+}
+.f1 nav{
+    margin: 50px auto;
+}
+footer p{
+  text-align: center;
+  font-size: 20px;
+}
